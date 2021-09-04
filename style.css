@@ -1,0 +1,77 @@
+/* General setting */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+section .heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* ABOUT */
+
+#about
+{
+    padding-top: 100px;
+    background: #9BB7D4;
+}
+
+.profile-picture
+{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+.img-circle
+{
+    border-radius: 50%;
+}
+
+#about .heading h1
+{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#about .heading h3
+{
+    color: #000;
+    text-transform: uppercase;
+}
+
+.head-button
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all;
+}
+
+.head-button:hover
+{
+    background: #fff;
+    color: #9BB7D4;
+    text-decoration: none;
+}
