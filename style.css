@@ -18,10 +18,24 @@ img
     height: auto;
 }
 
+section
+{
+    padding: 45px 0 80px 0;
+}
+
 section .heading
 {
     text-align: center;
     padding-bottom: 40px;
+}
+
+.blue-divider
+{
+    width: 100px;
+    height: 2px;
+    background-color: #9BB7D4;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 /* ABOUT */
@@ -74,4 +88,28 @@ section .heading
     background: #fff;
     color: #9BB7D4;
     text-decoration: none;
+}
+
+/* SKILLS */
+
+#skills
+{
+    background: #fff;
+}
+
+#skills .heading, h2
+{
+    color: #9BB7D4;
+    text-transform: uppercase;
+}
+
+.progress
+{
+    margin: 30px 20px !important;
+    height: 2rem !important;
+}
+
+#skills .progress, h5
+{
+    text-shadow: 1px 1px 1px #000;
 }
