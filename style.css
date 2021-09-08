@@ -38,6 +38,15 @@ section .heading
     margin-bottom: 15px;
 }
 
+.white-divider
+{
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
 /* ABOUT */
 
 #about
@@ -97,7 +106,7 @@ section .heading
     background: #fff;
 }
 
-#skills .heading, h2
+#skills .heading h2 
 {
     color: #9BB7D4;
     text-transform: uppercase;
@@ -112,4 +121,115 @@ section .heading
 #skills .progress, h5
 {
     text-shadow: 1px 1px 1px #000;
+}
+
+/* EXPERIENCES */
+
+/* EDUCATION */
+
+#education
+{
+    background: #9BB7D4;
+}
+
+#education .heading h2
+{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.education-block
+{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.education-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block h3
+{
+    color: #9BB7D4;
+}
+
+.education-block h4
+{
+    margin-bottom: 20px;
+}
+
+.education-block p
+{
+    font-weight: bold;
+}
+
+.education-block .blue-divider
+{
+    margin-bottom: 20px;
+}
+
+/* PORTFOLIO */
+
+#portfolio
+{
+    background: #fff;
+}
+
+#portfolio .heading h2
+{
+    color: #9BB7D4;
+    text-transform: uppercase;
+}
+
+#portfolio .thumbnail img
+{
+    width: 95%;
+    height: 95%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    margin-bottom: 10px;
+}
+
+#portfolio .thumbnail img:hover
+{
+    filter: none;
+    -webkit-filter: none;
+}
+
+/* FOOTER */
+
+footer
+{
+    background: #333;
+    color: #fff;
+    padding: 20px 0 40px;
+}
+
+footer h5
+{
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+footer p
+{
+    font-size: 20px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #9BB7D4;
+    font-size: 20px;
 }
