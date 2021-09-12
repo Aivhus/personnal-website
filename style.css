@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
+html { scroll-behavior: smooth;}
+
 body
 {
     font-family: 'Lato', sans-serif;
@@ -45,6 +47,21 @@ section .heading
     background-color: #fff;
     margin: 0 auto;
     margin-bottom: 15px;
+}
+
+/* NAV BAR */
+
+.navbar
+{
+    font-size: 15px !important;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-nav
+{
+    text-align: center !important;
 }
 
 /* ABOUT */
@@ -99,14 +116,14 @@ section .heading
     text-decoration: none;
 }
 
-/* SKILLS */
+/* SKILL */
 
-#skills
+#skill
 {
     background: #fff;
 }
 
-#skills .heading h2 
+#skill .heading, h2 
 {
     color: #9BB7D4;
     text-transform: uppercase;
@@ -118,7 +135,7 @@ section .heading
     height: 2rem !important;
 }
 
-#skills .progress, h5
+#skill .progress, h5
 {
     text-shadow: 1px 1px 1px #000;
 }

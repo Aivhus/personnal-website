@@ -7,7 +7,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -15,7 +14,49 @@
     <script src="js/main.js"></script>
     <title>personnal website</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="60">
+    <header>
+        
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#">Personnal Website : Cédric D.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li><a class="nav-link" href="#about">About me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#education">education</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <!-- <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+                    <img src="https://img.icons8.com/material-outlined/48s/000000/menu--v3.png"/>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="#myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav> -->
+
     <!-- ====================  SECTION ABOUT ==================== -->
     <section id="about" class="container-fluid">
         <div class="col-xs-8 col-md-4 profile-picture">
@@ -31,11 +72,10 @@
     </section>
     
     <!-- ==================== SECTION SKILLS ==================== -->
-    <section class="skills">
+    <section id="skill">
         <div class="blue-divider"></div>
         <div class="heading">
-            <h2 style="color: #9BB7D4; text-transform: uppercase;
-        ">Compétences</h2>
+            <h2>Skills</h2>
         </div>
         <div class="container">
             <div class="row">
@@ -118,6 +158,7 @@
                         <p>Front-end & Back-end</p>
                     </div>
                 </div>
+
                 <div class="col-sm-6">
                     <div class="education-block">
                         <h5>2021 - 2021</h5>
@@ -191,11 +232,11 @@
             <div class="row">
                 <div class="col-sm-3">
                     <h5>Follow me on my social media</h5>
-                        <a href="https://www.facebook.com/cedric.devalet/" class="#" target="_blank">
+                      <!--   <a href="https://www.facebook.com/cedric.devalet/" class="#" target="_blank">
                             <img src="https://img.icons8.com/clouds/100/000000/facebook.png" alt="FB-logo-redirect">
                         </a>
                         <a href="https://www.instagram.com/cedric.devalet/?hl=fr" class="#" target="_blank">
-                            <img src="https://img.icons8.com/clouds/100/000000/instagram-new--v2.png" alt="insta-logo-redirect">
+                            <img src="https://img.icons8.com/clouds/100/000000/instagram-new--v2.png" alt="insta-logo-redirect"> -->
                         </a>
                         <a href="https://www.linkedin.com/in/cedric-devalet-1715291a4/" class="#" target="_blank">
                             <img src="https://img.icons8.com/clouds/100/000000/linkedin.png" alt="linkedin-logo-redirect">
@@ -205,8 +246,8 @@
                         </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="https://github.com/Aivhus" class="about">
-                        <img src="img/keyboard_double_arrow_up_white_48dp.svg" alt="#">
+                    <a href="#about" class="about">
+                        <img src="img/keyboard_double_arrow_up_white_48dp.svg" alt="arrow">
                     </a>
                     <h5>DEVALET Cédric - 2021</h5>
                 </div>
